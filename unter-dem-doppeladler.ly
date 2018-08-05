@@ -73,6 +73,54 @@
           { q8 r r4 | }
           { q8 q16 q q8 r | }
         }
+        \bar "||"
+        \key as \major
+        \mark "Trio"
+        R2 |
+        r4 es |
+        \repeat volta 2 {
+          f c8 f |
+          es4 c8 as |
+          es2 |
+          r4 as8 c |
+          f,4 es |
+          as f' |
+          g,2 |
+          r4 es' |
+          f des8 f |
+          es4 des8 g, |
+          es2 |
+          r4 g8 bes |
+          f4 es |
+          g es' |
+          c2 |
+          r4 es |
+          f c8 f |
+          es4 c8 as |
+          es2 |
+          r4 as8 c |
+          f,4 es |
+          as <as as'> |
+          <as des f as>2 |
+          r8 as8 as as |
+          <as bes d as'>4-- q-- |
+          <g bes d g>-- <f bes d f>-- |
+          <as c f>2 |
+          r8 es' c as |
+          es4 <f des'> |
+          <es c'> <des bes'> |
+        }
+        \alternative {
+          {
+            <c as'>2 |
+            r4 es' |
+          }
+          {
+            <c, as'>8 r <es g des' es>4 |
+            r8 <as c es as>16 q q8 r |
+          }
+        }
+        \bar "|."
       }
     }
     \new Dynamics {
@@ -91,6 +139,19 @@
       s4 s4\mf |
       s8 s8\ff s4 |
       s2*17 |
+      s2\mp |
+      s2*21 |
+      s2\< |
+      s2 |
+      s2\f |
+      s2 |
+      s2\ff |
+      s2 |
+      s2\f |
+      s2*4 |
+      s4 s4\mp |
+      s2 |
+      s2\ff |
     }
     \new Staff {
       \clef "bass"
@@ -157,6 +218,36 @@
           { q <bes bes,> <c c,> <d d,> | }
           { <es es,> q16 q q8 r | }
         }
+        \bar "||"
+        \key as \major
+        \autoBeamOff
+        \repeat unfold 2 { as, <es' as c> es, q | }
+        \repeat volta 2 {
+          \repeat unfold 6 { as q es q | }
+          \repeat unfold 8 { bes' <es g des'> es, q | }
+          \repeat unfold 6 { as <es' as c> es, q | }
+          \repeat unfold 2 { as <es' ges as c> es, q | }
+          \autoBeamOn
+          des\noBeam <f' as des>16 q q8 q |
+          q as as as |
+          <bes, bes,>4-- q-- |
+          <f' as bes d>-- q-- |
+          \autoBeamOff
+          \repeat unfold 2 { es,8 <es' as c> es, q | }
+          \repeat unfold 2 { es <es' g des'> es, q | }
+          \autoBeamOn
+        }
+        \alternative {
+          {
+            as-^ es'-^ c-^ es-^ |
+            as,-^ r r4 |
+          }
+          {
+            <as as'>8 r <es es'>4 |
+            <as, as'>8\noBeam <es'' as c>16 q q8 r |
+          }
+        }
+        \bar "|."
       }
     }
   >>
