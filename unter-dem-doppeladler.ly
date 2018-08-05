@@ -5,6 +5,10 @@
   composer = "Josef Wagner"
 }
 
+\paper {
+  ragged-last-bottom = ##f
+}
+
 \score {
   \new PianoStaff <<
     \new Staff {
