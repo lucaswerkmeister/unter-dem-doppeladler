@@ -199,17 +199,17 @@ music =  \new PianoStaff <<
         { bes8-. <bes bes,> <c c,> <d d,> | }
       }
       \repeat volta 2 {
-        <es es,>4-- <bes bes,>-- |
-        <g' g,>-- <d d,>8 <es es,> |
-        <c' c,>4-- <bes bes,>-- |
+        <es es,>8-- r <bes bes,>-- r |
+        <g' g,>-- r <d d,> <es es,> |
+        <c' c,>-- r <bes bes,>-- r |
         <g g,>4-- r8 q |
-        <bes bes,>4-- <as as,>-- |
-        <f f,>-- <bes bes,>-- |
-        <g g,>2-- |
+        <bes bes,>8-- r <as as,>-- r |
+        <f f,>-- r <bes bes,>-- r |
+        <g g,>4.-- r8 |
         <es es,>4-- r8 <bes bes,> |
         <es es,>8.-. q16-. <bes bes,>8.-. q16-. |
         <g' g,>8.-. q16-. <d d,>8 <es es,> |
-        <c' c,>4-- <bes bes,>-- |
+        <c' c,>8-- r <bes bes,>-- r |
         <g g,>4-- r8 q |
         <bes bes,>8.-. q16-. <as as,>8.-. q16-. |
         <f f,>8.-. q16-. <bes bes,>8 q |
