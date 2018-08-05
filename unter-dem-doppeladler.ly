@@ -31,12 +31,12 @@
           }
           {
             <g bes es g>8 q16 q q4 |
-            <f bes d f>8 <g bes es g> <a d fis a> <bes d g bes> |
-            <c es g c>4 <f a c es f> |
+            <f bes d f>8 <es g> <d fis a> <d g bes> |
+            <es g bes c>4 <f a c es f> |
             <bes, d f bes>
           }
         }
-        <c es>8. q16 |
+        <c' es>8. q16 |
         \repeat volta 2 {
           \repeat unfold 2 {
             <bes d>8. <a cis>16 <bes d>8. <a cis>16 |
