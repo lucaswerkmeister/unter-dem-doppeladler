@@ -2,5 +2,5 @@
 
 all: unter-dem-doppeladler.pdf
 
-%.pdf: %.ly
+%.pdf %.midi: %.ly
 	lilypond --pdf $<
