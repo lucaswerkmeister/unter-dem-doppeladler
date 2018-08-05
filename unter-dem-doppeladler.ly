@@ -47,7 +47,7 @@
           \alternative {
             {
               \tuplet 3/2 { as bes d } bes'4~ |
-              \tuplet 3/2 { bes as8 } \tuplet 3/2 { g4 f8 } |
+              \tuplet 3/2 { bes8 bes,  as' } \tuplet 3/2 { g bes, f' } |
               \tuplet 3/2 { es g, c } bes4~ |
               bes <c es>8. q16 |
             }
