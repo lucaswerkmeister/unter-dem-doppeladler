@@ -16,22 +16,22 @@ music =  \new PianoStaff <<
     \time 2/4
     \relative bes' {
       \repeat unfold 2 {
-        \repeat unfold 2 { bes8 bes16 bes bes4 | }
-        <g bes es>8 q16 q q8 q |
-        <f bes d>8 bes16 bes bes4 |
+        \repeat unfold 2 { bes8-. bes16 bes bes4-> | }
+        <g bes es>8-. q16 q q8-. q-. |
+        <f bes d>8-. bes16 bes bes4-> |
       }
       \alternative {
         {
-          <ges bes es ges>8 q16 q q4 |
-          <f bes des f>8 q16 q q4 |
-          c16 d e f g8 a |
-          f4 \acciaccatura { c'16 d e } <f, a c f>4-^ |
+          <ges bes es ges>8-. q16 q q4-> |
+          <f bes des f>8-. q16 q q4-> |
+          c16( d e f g8-. a-.) |
+          f4-. \acciaccatura { c'16 d e } <f, a c f>4-^ |
         }
         {
-          <g bes es g>8 q16 q q4 |
-          <f bes d f>8 <es g> <d fis a> <d g bes> |
-          <es g bes c>4 <f a c es f> |
-          <bes, d f bes>
+          <g bes es g>8-. q16 q q4-> |
+          <f bes d f>8-. <es g>-. <d fis a>-. <d g bes>-. |
+          <es g bes c>4-. <f a c es f>-^ |
+          <bes, d f bes>-^
         }
       }
       <c' es>8. q16 |
@@ -161,22 +161,22 @@ music =  \new PianoStaff <<
     \time 2/4
     \relative bes {
       \repeat unfold 2 {
-        \repeat unfold 2 { bes8 bes16 bes bes4 | }
-        bes8 bes16 bes bes8 bes |
-        bes bes16 bes bes4 |
+        \repeat unfold 2 { bes8-. bes16 bes bes4-> | }
+        bes8-. bes16 bes bes8-. bes-. |
+        bes-. bes16 bes bes4-> |
       }
       \alternative {
         {
-          <es, es,>8 q16 q q4 |
-          <des des,>8 q16 q q4 |
-          c16 d e f g8 a |
-          f4 <f f,>-^ |
+          <es, es,>8-. q16 q q4-> |
+          <des des,>8-. q16 q q4-> |
+          c16( d e f g8-. a-.) |
+          f4-. <f f,>-^ |
         }
         {
-          <es es,>8 q16 q q4 |
-          <d d,>8 <es es,> <fis fis,> <g g,> |
-          <es es,>4 <f f,> |
-          <bes, bes,>
+          <es es,>8-. q16 q q4-> |
+          <d d,>8-. <es es,>-. <fis fis,>-. <g g,>-. |
+          <es es,>4-. <f f,>-^ |
+          <bes, bes,>-^
         }
       }
       r |
