@@ -16,8 +16,7 @@ music =  \new PianoStaff <<
     \time 2/4
     \relative bes' {
       \repeat unfold 2 {
-        bes8 bes16 bes bes4 |
-        bes8 bes16 bes bes4 |
+        \repeat unfold 2 { bes8 bes16 bes bes4 | }
         <g bes es>8 q16 q q8 q |
         <f bes d>8 bes16 bes bes4 |
       }
@@ -162,8 +161,7 @@ music =  \new PianoStaff <<
     \time 2/4
     \relative bes {
       \repeat unfold 2 {
-        bes8 bes16 bes bes4 |
-        bes8 bes16 bes bes4 |
+        \repeat unfold 2 { bes8 bes16 bes bes4 | }
         bes8 bes16 bes bes8 bes |
         bes bes16 bes bes4 |
       }
