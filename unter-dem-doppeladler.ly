@@ -27,7 +27,7 @@
             <ges bes es ges>8 q16 q q4 |
             <f bes des f>8 q16 q q4 |
             c16 d e f g8 a |
-            f4 <f a c f>-^ |
+            f4 \acciaccatura { c'16 d e } <f, a c f>4-^ |
           }
           {
             <g bes es g>8 q16 q q4 |
