@@ -207,12 +207,12 @@ music =  \new PianoStaff <<
         <f f,>-- r <bes bes,>-- r |
         <g g,>4.-- r8 |
         <es es,>4-- r8 <bes bes,> |
-        <es es,>8.-. q16-. <bes bes,>8.-. q16-. |
-        <g' g,>8.-. q16-. <d d,>8 <es es,> |
+        <es es,>8-. r16 q-. <bes bes,>8-. r16 q-. |
+        <g' g,>8-. r16 q-. <d d,>8 <es es,> |
         <c' c,>8-- r <bes bes,>-- r |
         <g g,>4-- r8 q |
-        <bes bes,>8.-. q16-. <as as,>8.-. q16-. |
-        <f f,>8.-. q16-. <bes bes,>8 q |
+        <bes bes,>8-. r16 q-. <as as,>8-. r16 q-. |
+        <f f,>8-. r16 q-. <bes bes,>8 q |
         <es, es,>8-. r q-. r |
       }
       \alternative {
