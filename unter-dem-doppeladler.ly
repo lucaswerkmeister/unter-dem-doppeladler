@@ -52,13 +52,13 @@ music =  \new PianoStaff <<
           {
             \tuplet 3/2 { f,8 bes d } <f d bes f>4 |
             \tuplet 3/2 { f,8 a c } <f c a f>4 |
-            <bes, f d bes>8 <bes bes,>16 q q8 q |
+            <bes, f d bes>8-. <bes bes,>16 q q8-. q-. |
           }
         }
       }
       \alternative {
-        { q r <c es>8. q16 | }
-        { <bes bes,>8 r r4 | }
+        { q-. r <c es>8. q16 | }
+        { <bes bes,>8-. r r4 | }
       }
       \repeat volta 2 {
         \repeat unfold 2 {
@@ -190,13 +190,13 @@ music =  \new PianoStaff <<
         es <g' bes es> bes,, q |
         es <g' bes es> es, q |
         \autoBeamOn
-        <f f'> r r q |
-        q r r q |
-        bes bes16 bes bes8 bes |
+        <f f'>-. r r q |
+        q-. r r q |
+        bes-. bes16 bes bes8-. bes-. |
       }
       \alternative {
-        { bes r r4 | }
-        { bes8 <bes bes,> <c c,> <d d,> | }
+        { bes-. r r4 | }
+        { bes8-. <bes bes,> <c c,> <d d,> | }
       }
       \repeat volta 2 {
         <es es,>4-- <bes bes,>-- |
