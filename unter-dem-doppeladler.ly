@@ -104,7 +104,7 @@ music =  \new PianoStaff <<
         f,4 es |
         as <as as'> |
         <as des f as>2 |
-        r8 as8 as as |
+        r8 as8-. as-. as-. |
         <as bes d as'>4-- q-- |
         <g bes d g>-- <f bes d f>-- |
         <as c f>2 |
@@ -230,7 +230,7 @@ music =  \new PianoStaff <<
         \repeat unfold 2 { as <es' ges as c> es, q | }
         \autoBeamOn
         des\noBeam <f' as des>16 q q8 q |
-        q as as as |
+        q as-. as-. as-. |
         <bes, bes,>4-- q-- |
         <f' as bes d>-- q-- |
         \autoBeamOff
