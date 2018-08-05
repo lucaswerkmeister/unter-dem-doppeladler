@@ -118,8 +118,8 @@ music =  \new PianoStaff <<
           r4 es' |
         }
         {
-          <c, as'>8 r <es g des' es>4 |
-          r8 <as c es as>16 q q8 r |
+          <c, as'>8 r <es g des' es>4-> |
+          r8 <as c es as>16 q q8-^ r |
         }
       }
       \bar "|."
@@ -244,8 +244,8 @@ music =  \new PianoStaff <<
           as,-^ r r4 |
         }
         {
-          <as as'>8 r <es es'>4 |
-          <as, as'>8\noBeam <es'' as c>16 q q8 r |
+          <as as'>8 r <es es'>4-> |
+          <as, as'>8\noBeam <es'' as c>16 q q8-^ r |
         }
       }
       \bar "|."
