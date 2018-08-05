@@ -58,6 +58,21 @@
           { q r <c es>8. q16 | }
           { <bes bes,>8 r r4 | }
         }
+        \repeat volta 2 {
+          \repeat unfold 2 {
+            \repeat unfold 3 { r8 <es, g bes es> r q | }
+            r q16 q q8 q |
+            \repeat unfold 2 { r <d f as bes d> r q | }
+          }
+          \alternative {
+            \repeat unfold 2 { r <es g bes es>16 q q8 q | }
+            { q bes'16 bes q8 bes16 bes | }
+          }
+        }
+        \alternative {
+          { q8 r r4 | }
+          { q8 q16 q q8 r | }
+        }
       }
     }
     \new Dynamics {
@@ -75,6 +90,7 @@
       s2*2 |
       s4 s4\mf |
       s8 s8\ff s4 |
+      s2*17 |
     }
     \new Staff {
       \clef "bass"
@@ -119,6 +135,27 @@
         \alternative {
           { bes r r4 | }
           { bes8 <bes bes,> <c c,> <d d,> | }
+        }
+        \repeat volta 2 {
+          <es es,>4-- <bes bes,>-- |
+          <g' g,>-- <d d,>8 <es es,> |
+          <c' c,>4-- <bes bes,>-- |
+          <g g,>4-- r8 q |
+          <bes bes,>4-- <as as,>-- |
+          <f f,>-- <bes bes,>-- |
+          <g g,>2-- |
+          <es es,>4-- r8 <bes bes,> |
+          <es es,>8.-. q16-. <bes bes,>8.-. q16-. |
+          <g' g,>8.-. q16-. <d d,>8 <es es,> |
+          <c' c,>4-- <bes bes,>-- |
+          <g g,>4-- r8 q |
+          <bes bes,>8.-. q16-. <as as,>8.-. q16-. |
+          <f f,>8.-. q16-. <bes bes,>8 q |
+          <es, es,>8 r q r |
+        }
+        \alternative {
+          { q <bes bes,> <c c,> <d d,> | }
+          { <es es,> q16 q q8 r | }
         }
       }
     }
