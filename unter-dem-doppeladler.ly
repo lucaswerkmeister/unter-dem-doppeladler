@@ -63,18 +63,18 @@ music =  \new PianoStaff <<
       }
       \repeat volta 2 {
         \repeat unfold 2 {
-          \repeat unfold 3 { r8 <es, g bes es> r q | }
-          r q16 q q8 q |
-          \repeat unfold 2 { r <d f as bes d> r q | }
+          \repeat unfold 3 { r8 <es, g bes es>-. r q-. | }
+          r q16 q q8-. q-. |
+          \repeat unfold 2 { r <d f as bes d>-. r q-. | }
         }
         \alternative {
-          \repeat unfold 2 { r <es g bes es>16 q q8 q | }
-          { q bes'16 bes q8 bes16 bes | }
+          \repeat unfold 2 { r <es g bes es>16 q q8-. q-. | }
+          { q-. bes'16 bes q8-. bes16 bes | }
         }
       }
       \alternative {
-        { q8 r r4 | }
-        { q8 q16 q q8 r | }
+        { q8-. r r4 | }
+        { q8-. q16 q q8-. r | }
       }
       \bar "||"
       \key as \major
@@ -215,11 +215,11 @@ music =  \new PianoStaff <<
         <g g,>4-- r8 q |
         <bes bes,>8.-. q16-. <as as,>8.-. q16-. |
         <f f,>8.-. q16-. <bes bes,>8 q |
-        <es, es,>8 r q r |
+        <es, es,>8-. r q-. r |
       }
       \alternative {
-        { q <bes bes,> <c c,> <d d,> | }
-        { <es es,> q16 q q8 r | }
+        { q-. <bes bes,> <c c,> <d d,> | }
+        { <es es,>-. q16 q q8-. r | }
       }
       \bar "||"
       \key as \major
